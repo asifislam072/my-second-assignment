@@ -9,6 +9,19 @@
   .main-container {
     flex-direction: column;
   }
+  .travel-section {
+    flex-direction: column-reverse;
+  }
+  .travel-option {
+    flex-direction: column;
+  }
+  .travel-option img {
+    width: 29%;
+    margin: 40px 5px 30px 0px;
+  }
+  .travel-man img{
+    width: 100%;
+  }
   .main-img img {
     width: 100%;
     margin-top: 30px;
@@ -27,8 +40,7 @@
   }
   .image-container {
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(1fr);
     gap: 20px;
   }
   .grit-item-1 {
@@ -123,7 +135,7 @@
   .discount-offer {
     transform: translate(88px, 34px) rotate(336deg);
   }
-  .footer-container img{
+  .footer-container img {
     width: 30%;
   }
 }
