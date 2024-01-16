@@ -1,0 +1,129 @@
+@media screen and (max-width: 600px) {
+  .header-box h1 {
+    padding-top: 25px;
+  }
+  .header-box {
+    width: 100%;
+  }
+  .btn-selector,
+  .main-container {
+    flex-direction: column;
+  }
+  .main-img img {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .main-text {
+    width: 100%;
+  }
+  .image-container-text {
+    text-align: center;
+    padding: 26px 0px;
+    margin: 0 auto;
+    width: 90%;
+  }
+  .image-container-text h1 {
+    font-size: 20px;
+  }
+  .image-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .grit-item-1 {
+    grid-column: 1 / span 12;
+    grid-row: 1 / span 1;
+  }
+  .image-container img {
+    width: 100%;
+    flex-direction: column;
+  }
+  .first-info {
+    flex-direction: column;
+  }
+  .icon-box-left {
+    margin: 0px 0px 30px 0px;
+  }
+  .icon-box-right {
+    margin: 0px 0px 0px 0px;
+  }
+  .icon-box-btn {
+    width: 91%;
+  }
+  .deals {
+    text-align: center;
+    width: 100%;
+  }
+  .detailes-conteiner,
+  .detailes-conteiner-tow {
+    height: 535px;
+  }
+  .detailes-conteiner-tow {
+    justify-content: center;
+  }
+  .second-detailes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 67px;
+  }
+  .detailes-box-one {
+    margin: 0px;
+  }
+  .first-detailes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .second-detailes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0px;
+  }
+  .icon-info {
+    flex-direction: column;
+    justify-content: start;
+  }
+  .detailes-box-one {
+    width: 56%;
+    padding: 23px 29px 50px 30px;
+  }
+  .text-video-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 80px 0px;
+    flex-direction: column;
+  }
+  .video-text {
+    width: 100%;
+    line-height: 30px;
+  }
+  .video-text h1 {
+    width: 70%;
+    padding-bottom: 13px;
+    line-height: 40px;
+  }
+  .video-text p {
+    line-height: 23px;
+    margin-bottom: 20px;
+  }
+  .video-btn {
+    margin: 20px 0px;
+  }
+  .news-letter-container {
+    flex-direction: column;
+  }
+  .roted-text-box {
+    margin-top: 30px;
+    padding: 107px 104px 107px 109px;
+  }
+  .discount-offer {
+    transform: translate(88px, 34px) rotate(336deg);
+  }
+  .footer-container img{
+    width: 30%;
+  }
+}
